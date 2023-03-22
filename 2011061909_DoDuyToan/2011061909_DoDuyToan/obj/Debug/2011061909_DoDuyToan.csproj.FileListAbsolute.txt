@@ -172,3 +172,4 @@ C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToa
 C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\2011061909_DoDuyToan.csproj.CopyComplete
 C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\2011061909_DoDuyToan.dll
 C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\2011061909_DoDuyToan.pdb
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\_2011061909_DoDuyToan.Migrations.AddNameColumnToApplicationUser.resources
