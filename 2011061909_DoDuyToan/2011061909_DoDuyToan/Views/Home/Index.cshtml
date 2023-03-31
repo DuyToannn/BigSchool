@@ -31,7 +31,7 @@
 </style>
 
 <h1>Giảng Viên</h1>
-
+    
     <ul class="course">
         @foreach (var course in Model)
         {
@@ -45,14 +45,60 @@
                 </div>
             </div>
             <div class="details">
-                <span class="lecturer">
-                    @course.Lecturer.Name
-                </span>
-                <span class="category">
-                    @course.Category.Name
-                </span>
+
+                <span class="lecturer">@course.Lecturer.Name</span>
+                @if (ViewBag.IsAuthenticated)
+                {
+                    <button class="btn btn-default btn-sm js-toggle-follow" data-user-id="@course.LecturerId">Follow</button>
+                }
+
+                <span class="category">@course.Category.Name</span>
+                @if (ViewBag.IsAuthenticated)
+                {
+                    <button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
+                }
+
+
+
             </div>
         </li>
         }
  
     </ul>
+@section scripts{
+
+    <script>
+        $(document).ready(function () {
+            $(".js-toggle-attendance").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/attendances", { courseId: button.attr("data-course-id") })
+                    .done(function () {
+                        button
+                            .removeClass("btn-default")
+                            .addClass("btn-info")
+                                .text("Going");
+                    })
+                    .fail(function () {
+                        alert("Something fail");
+                    });
+            });
+        });
+
+        $(document).ready(function () {
+            $(".js-toggle-follow").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/followings", { followeeId: button.attr("data-user-id") })
+                    .done(function () {
+                        button.text("Following");
+                            
+                    })
+                    .fail(function () {
+                        alert("Something fail");
+                    });
+            });
+        });
+
+
+    </script>
+    
+    }

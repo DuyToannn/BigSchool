@@ -29,6 +29,14 @@
             </div>
         </div>
     </div>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <script>var isAuthenticated = true;</script>
+    }
+    else
+    {
+        <script>var isAuthenticated = false;</script>
+    }
     <div class="container body-content">
         @RenderBody()
         <hr />

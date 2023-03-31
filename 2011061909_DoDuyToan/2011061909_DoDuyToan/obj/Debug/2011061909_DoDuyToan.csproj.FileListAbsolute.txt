@@ -173,3 +173,11 @@ C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToa
 C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\2011061909_DoDuyToan.dll
 C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\2011061909_DoDuyToan.pdb
 C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\_2011061909_DoDuyToan.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\_2011061909_DoDuyToan.Migrations.AddAttendance.resources
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\bin\System.Net.Http.Formatting.dll
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\bin\System.Web.Http.dll
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\bin\System.Web.Http.WebHost.dll
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\bin\System.Net.Http.Formatting.xml
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\bin\System.Web.Http.xml
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\bin\System.Web.Http.WebHost.xml
+C:\Users\FPTSHOP-DELL\Desktop\BigSchool\2011061909_DoDuyToan\2011061909_DoDuyToan\obj\Debug\_2011061909_DoDuyToan.Migrations.AddFollowingsTable.resources
